@@ -1,0 +1,30 @@
+
+{
+    "brands": [
+      {
+        "id": "lev",
+        "description": "What started as an invention for the American worker become uniform of progress",
+        "isTextRight": true
+      },
+
+      {
+        "id": "ad",
+        "description": "What started as an invention for the American worker become uniform of progress",
+        "isTextRight": false
+      },
+
+      {
+        "id": "tim",
+        "description": "What started as an invention for the American worker become uniform of progress",
+        "isTextRight": false
+      },
+
+      {
+        "id": "ree",
+        "description": "What started as an invention for the American worker become uniform of progress",
+        "isTextRight": true
+      }
+    ]
+  }
+
+  

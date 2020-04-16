@@ -1,0 +1,33 @@
+{
+    "stories": [
+      {
+        "id": 1,
+        "quote": "ME A SECOND CHANCE ",
+        "description": "What started as an invention for the American worker become uniform of progress",
+        "isTextRight": true
+      },
+
+      {
+        "id": 2,
+        "quote": "ME A SECOND CHANCE ",
+        "description": "What started as an invention for the American worker become uniform of progress",
+        "isTextRight": false
+      },
+
+      {
+        "id": 3,
+        "quote": "ME A SECOND CHANCE ",
+        "description": "What started as an invention for the American worker become uniform of progress",
+        "isTextRight": false
+      },
+
+      {
+        "id": 4,
+        "quote": "ME A SECOND CHANCE ",
+        "description": "What started as an invention for the American worker become uniform of progress",
+        "isTextRight": true
+      }
+    ]
+  }
+
+  

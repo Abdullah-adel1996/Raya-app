@@ -1,25 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import Navigation from './shared/components/Navigation';
+import Heading from './header-section/Heading';
+import BrandTitle from './brand-section/BrandTitle';
+import BrandList  from './brand-section/BrandList'
+import About from './aboutus-section/About';
+import Map from './map-section/Map';
+import ShoppingSteps from './shoppingSteps-section/ShoppingSteps';
+import StoriesList from './stories-section/StoriesList';
+import ProductList from './bestSeller-section/ProductList';
+import BestSellerTitle from './bestSeller-section/BestSellerTitle';
+import Footer from './footer-section/Footer';
 import './App.css';
 
-function App() {
+
+
+
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Navigation/>
+      <Heading/>
+      <BrandTitle/>
+      <br/>
+      <BrandList/>
+      <br/><br/><br/>
+      <About/>
+      <br/>
+     <Map/>
+     <br/>
+     <BestSellerTitle/>
+     <br/>
+     <ProductList/>
+     <br/>
+     <ShoppingSteps/>
+     <br/>
+     <StoriesList/>
+     <br/><br/>
+     <Footer/>
+    </React.Fragment>
   );
 }
 
